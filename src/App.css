@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  padding: 20px; /* Adjust the padding value as needed */
+}
+
+.team-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Create three equal-width columns */
+  gap: 20px; /* Add some gap between the cards */
+}
+
+.team-card {
+  border: 1px solid #ccc;
+  padding: 30px;
+  box-sizing: border-box;
+}
